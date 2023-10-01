@@ -10,6 +10,7 @@
         "strict": true,
         "noEmit": true,
         "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
         "baseUrl": ".",
         "paths": {
             "~/*": ["./*"],
@@ -17,5 +18,10 @@
         },
         "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node", "@nuxtjs/firebase", "@types/lodash"]
     },
+    "plugins": [
+        {
+            "name": "typescript-detect-decorator"
+        }
+    ],
     "exclude": ["node_modules", ".nuxt", "dist"]
 }

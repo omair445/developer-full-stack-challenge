@@ -92,7 +92,7 @@ sw.*
 
 # Vim swap files
 *.swp
-
+vvv
 
 # Local .terraform directories
 **/.terraform/*
@@ -133,3 +133,4 @@ terraform.rc
 
 service-account*.json
 notebook.ipynb
+env
